@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo 'Получение кода из GitHub...'
                 git branch: 'main',
-                url: 'https://github.com/Anna-Leb/student-data-generator.git'
+                url: 'https://github.com/Anna-Leb/student_data_generator.git'
             }
         }
 
